@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    font-weight: bold;
+}
+
+#top-area {
+    background: #6943FF;
+    padding: 15px 10px 20px 40px;
+    text-align: center;
+}
+
+#h2-el {
+    color: white;
+    margin: 0px;
+}
+
+#input-el {
+    margin: 20px;
+    background-color: #6943FF;
+    border-color: white;
+    border-radius: 5px;
+    width: 75px;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    
+}
+
+#convert-btn {
+    background: white;
+    border: none;
+    border-radius: 5px;  
+    width: 85px;
+    height: 35px;  
+}
+
+#converstions {
+    text-align:center;
+    color: #CCC1FF;
+    font-size: 25px;
+}
+
+#length {
+    background-color: #374151;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 2px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#volume {
+    background-color: #374151;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 2px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mass {
+    background-color: #374151;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 2px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
