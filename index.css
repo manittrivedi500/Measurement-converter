@@ -38,6 +38,11 @@ body {
     height: 35px;  
 }
 
+#convert-btn:active {
+    width: 82px;
+    height: 30px;
+}
+
 #converstions {
     text-align:center;
     color: #CCC1FF;
@@ -47,7 +52,7 @@ body {
 #length {
     background-color: #374151;
     margin: 20px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 2px;
     height: 60px;
     display: flex;
@@ -58,7 +63,7 @@ body {
 #volume {
     background-color: #374151;
     margin: 20px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 2px;
     height: 60px;
     display: flex;
@@ -69,7 +74,7 @@ body {
 #mass {
     background-color: #374151;
     margin: 20px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 2px;
     height: 60px;
     display: flex;
