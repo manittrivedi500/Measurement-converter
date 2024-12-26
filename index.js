@@ -10,9 +10,9 @@ let volume = document.getElementById("volume")
 let mass = document.getElementById("mass")
 
 convertBtn.addEventListener("click", function() {
-    distance.innerHTML = "Length (Meters/Feet) "
-    volume.innerHTML = "Volume (Liters/Gallons) "
-    mass.innerHTML = "Mass (Kilograms/Pounds) "
+    distance.innerHTML = "Length (Meters/Feet): "
+    volume.innerHTML = "Volume (Liters/Gallons): "
+    mass.innerHTML = "Mass (Kilograms/Pounds): "
     
     document.getElementById("length").innerHTML += inputEl.value + " meters = " + Math.round(inputEl.value * 3.281 * 1000) / 1000 + " feet | "
     document.getElementById("length").innerHTML += inputEl.value + " feet = " + Math.round(inputEl.value / 3.281 * 1000) / 1000 + " meters"
